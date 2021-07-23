@@ -1,0 +1,43 @@
+/* box-model */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#box1{
+    background-color: grey;
+    padding: 30px;
+    border:10px solid grey;
+    margin-bottom: 30px;
+}
+
+#box2{
+    background-color: grey;
+    padding: 30px;
+    border:10px solid grey;
+    box-sizing: border-box;
+    /* display: none; */
+    visibility: hidden;
+}
+
+span{
+    background-color: red;
+    display: block;
+}
+
+ul{
+    background-color: rosybrown;
+    padding: 10px;
+}
+li{
+    display: inline;
+    padding: 5px 10px;
+}
+
+li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+li:hover{
+    background-color: sandybrown;
+}
