@@ -1,0 +1,53 @@
+.box1, .box2{
+    border: 1px solid grey;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+.box1{
+    background-color: red;
+    margin: 10px auto;
+    position: relative;
+}
+.box2{
+    background-color: green;
+    /* position: static; */
+    /* position: relative;
+    /* position: fixed; */
+    top: 50px;
+    right: -50px; 
+    
+}
+#pikin{
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+
+    position: absolute;
+    left: 0px;
+    top: 0;
+}
+
+/* #sticky{
+    position: sticky;
+    top: 0;
+    color: red;
+} */
+
+ul{
+    position: sticky;
+    top: 0;
+}
+
+#help{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    border-radius:50%;
+}
