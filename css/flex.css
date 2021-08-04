@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    background-color: blue;
+    padding: 10px;
+    display: flex;
+    /* justify-content: start; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    flex-direction: column-reverse;
+
+
+}
+
+div{
+    background-color: lightgray;
+    margin: 10px;
+    padding: 50px;
+}
+#box1{
+    /* height: 200px; */
+}
